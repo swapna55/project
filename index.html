@@ -1,51 +1,23 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="myApp">
 <head>
+<!--       <script src = "https://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script> -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.7/angular.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.7/angular-route.min.js"></script>
+
+    
 <meta charset="ISO-8859-1">
-<title>Insert title here</title>
+<title>index</title>
 </head>
 <body>
-<script src="resources/js/jquery.js"></script>
-<script src="resources/js/bootstrap.js"></script>
-<script src="resources/js/angular.js"></script>
-<script src="resources/js/angular-route.js"></script>
-<script src="resources/js/angular-cookies.js"></script>
-<script src="resources/js/sockjs.js"></script>
-<script src="resources/js/stomp.js"></script>
+<a href="#/">Home</a>
+    <a href="#about">About Us</a>
+    <a href="#Register">Register</a>
 
+    <div ng-view></div>
 
-<script src="resources/js/upload.js"></script>
-<script src="resources/js/ng-file-upload.js"></script>
-<script src="resources/js/ng-file-upload-all.js"></script>
-
-<script src="app.js"></script>
-<script src="c_home/HomeController.js"></script>
-<script src="c_user/UserController.js"></script>
-<script src="c_user/UserService.js"></script>
-<script src="c_blog/BlogController.js"></script>
-<script src="c_blog/BlogService.js"></script>
-
-<script src="c_chat_forum/ChatForumController.js"></script>
-<script src="c_chat_forum/ChatForumService.js"></script>
-<script src="resources/js/jquery.js"></script>
-<script src="c_friend/FriendService.js"></script>
-
-<script src="c_friend/FriendService.js"></script>
-<script src="c_job/JobController.js"></script>
-
-<script src="c_job/JobService.js"></script>
-
-<script src="c_chat/ChatController.js"></script>
-
-<script src="c_chat/ChatService.js"></script>
-
-<script src="c_upload/FileUploadController.js"></script>
-
-<script src="c_blog/BlogService.js"></script>
-
-
-
-
-
+    <script src="app.js"></script>
+    <script src="AboutController.js"></script>
+       
 </body>
 </html>
