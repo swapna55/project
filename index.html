@@ -3,21 +3,42 @@
 <head>
 <!--       <script src = "https://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script> -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.7/angular.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.7/angular-route.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.7/angular-route.min.js"></script>
 
-    
+
 <meta charset="ISO-8859-1">
 <title>index</title>
 </head>
-<body>
-<a href="#/">Home</a>
-    <a href="#about">About Us</a>
-    <a href="#Register">Register</a>
 
-    <div ng-view></div>
+<body>
+
+<a href="#/">Home</a>
+
+<a href="#about">About Us</a>
+
+ <a href="#/Login">Login</a>
+
+	  <a href="#/Register">Register</a>
+	  
+	  <a href="#/myprofile">Profile</a>
+	  
+	 <!--  <a href="#/searchFriend">SearchFriend</a>
+	  
+	   <a href="#/viewFriend">ViewFriend</a>
+ -->
+	  
+
+
+<div ng-view></div>
 
     <script src="app.js"></script>
     <script src="AboutController.js"></script>
-       
+    <script src="UserController.js"></script>
+    <script src="UserService.js"></script>
+     <script src="FriendController.js"></script>
+    <script src="FriendService.js"></script>
+   
+   
 </body>
+
 </html>
